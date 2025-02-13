@@ -6,7 +6,7 @@ import br.com.alura.musicasBD.modelos.Album
 import javax.persistence.EntityManager
 
 class AlbumDAO(manager: EntityManager)
-    : DAO<Album,  AlbumEntity>(manager, AlbumEntity::class.java) {
+    : DAO<Album,  AlbumEntity>(manager, AlbumEntity::class) {
     override fun toEntity(model: Album): AlbumEntity {
         return model.toEntity()
     }
@@ -15,3 +15,4 @@ class AlbumDAO(manager: EntityManager)
         return entity.toModel()
     }
 }
+
