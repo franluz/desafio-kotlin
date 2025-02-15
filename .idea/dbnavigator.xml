@@ -16,7 +16,7 @@
       <console name="Connection" type="STANDARD" schema="mysql" session="Main"><![CDATA[create database musicasbd]]></console>
     </connection>
     <connection id="971dfe6a-16c2-457e-b169-b826e0bccb05">
-      <console name="Connection 1" type="STANDARD" schema="mysql" session="Main"><![CDATA[create database musicasbd]]></console>
+      <console name="Connection 1" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -47,12 +47,12 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
-          <database value="mysql" />
+          <database value="alugames" />
           <tns-folder value="" />
           <tns-profile value="" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="WjlOaHI1JXhtdyRG" />
+          <deprecated-pwd value="bHNtOTc5RlJBTiEh" />
         </database>
         <properties>
           <auto-commit value="false" />
@@ -126,19 +126,19 @@
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="9.1" />
+          <database-version value="9.2" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
-          <database value="mysql" />
+          <database value="musicas" />
           <tns-folder value="" />
           <tns-profile value="" />
           <type value="USER_PASSWORD" />
-          <user value="" />
-          <deprecated-pwd value="" />
+          <user value="root" />
+          <deprecated-pwd value="bHNtOTc5RlJBTiEh" />
         </database>
         <properties>
           <auto-commit value="false" />

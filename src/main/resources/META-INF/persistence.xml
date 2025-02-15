@@ -5,9 +5,9 @@
     <persistence-unit name="musicas" transaction-type="RESOURCE_LOCAL">
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/musicasBD"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/musicas"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="aLxXzDcgueZu6z"/>
+            <property name="javax.persistence.jdbc.password" value="lsm979FRAN!!"/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
 
