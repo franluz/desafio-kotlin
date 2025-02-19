@@ -3,6 +3,7 @@ package br.com.alura.musicasBD.principal
 import br.com.alura.musicasBD.dados.AlbumDAO
 import br.com.alura.musicasBD.dados.Banco
 import br.com.alura.musicasBD.dados.BandaDAO
+import br.com.alura.musicasBD.dados.BandaEntity
 import br.com.alura.musicasBD.modelos.Album
 import br.com.alura.musicasBD.modelos.Banda
 
@@ -12,6 +13,7 @@ fun main(){
 
     val albumDAO = AlbumDAO(manager)
     val bandaDAO = BandaDAO(manager)
+    //bandaDAO.adicionar(Banda("Titans","Banda de Rock"))
     val titas = bandaDAO.recuperarPeloId(1)
 
     val goBack = Album("Go Back", titas)
